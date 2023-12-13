@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    height: inherit;
+    background-image: url(images/hero\ bg\ 1.png);
+    background-image:100% 100%;   
+}
+.background{
+    background-image: url(images/Mask\ group.png);
+    background-size: 100% 100%;
+    width: 100%; 
+}
+a{
+    text-decoration: none;
+}
+.vrstory{
+    color: white;
+    line-height: 4;
+}
+.middlepart{
+    line-height: 4;
+    display:flex;  
+    color: white;
+    list-style: none;
+    justify-content: end;
+    justify-content: space-around;
+    padding-left: 150px; 
+}
+.start{
+    border-radius: 50px;
+    background-color:rgba(255, 29, 163, 1);
+    color: white;
+    font-weight: 600;   
+}
+.fa-solid{
+    color: white;
+    font-size: 20px;
+}
+.leftsection{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    line-height:1.3;
+}
+.Vrstory{
+    color: white;
+    font-family: "poppins";
+    padding-left: 50px;
+    font-weight: 500;
+    font-size: 19px;
+}
+.rightsectionimage{
+    background-size: 100% 100%;
+    height: 500px;
+}
+.learnmore{
+    border: 1px solid white;
+    border-radius: 20px;
+   color: white;
+   width: 120px;
+   height: 40px;
+   text-align: center;
+}
+.button{
+    display: flex;
+}
+.watchdemo{
+    background-color:rgba(255, 29, 163, 1) ;
+    color: white;
+    border-radius: 80px;
+}
+.watch{
+    color: white;
+}
+.cube{
+    height: inherit;
+    background-image: linear-gradient(40deg, rgb(244, 247, 249),rgb(243, 238, 238));
+}
+.mixedrealty{
+    position: relative;
+    background-color:aliceblue;
+}
+.imageofcube{
+    background-image: url(images/Holographic\ 3D\ shape\ 67\ 1.png);
+    background-size: 100% 100%;
+    height: 260px;
+    width: 260px;
+    position: absolute;
+    right: 20px;
+}
+.mix{
+    font-family: "poppins";
+    color: red;
+    position: absolute;
+    top: 300px;
+    left: 230px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.play{
+    color: red;
+}
+.leftside{
+    position: relative;
+}
+.leftside h2{
+    padding-top: 50px;
+    padding-left: 120px;
+}
+.video{
+    position: absolute;
+    top: 150px;
+    left: 140px;
+    width: 100%;
+    height: 350px;
+    background-image: url(images/Group\ 19.png);
+    background-size: 100% 100%;
+}
+.rightside{
+    height: 500px;
+    background-color: aliceblue;
+}
+.gradient1{
+    background-image: linear-gradient(40deg,rgb(92, 92, 194) ,rgb(165, 78, 78) ,rgb(197, 164, 104));
+}
+.fa-quote-left{
+    font-size: 80px;
+    color:white;
+}
+.content{
+    color: white;
+    font-family: "poppins";
+}
+.listofmixed{
+    padding-left: 175px;
+    list-style: none;
+    line-height: 2;
+    font-weight: 500;
+}
+@media screen and(min-width:480px){
+    .listofmixed{
+        width: 100%;
+    }
+}
+@media screen and(min-width:480px){
+    .video{
+        width: 100%;
+    }
+}
+@media screen and(min-width:480px){
+    .Vrstory{
+        width: 100%;
+    }
+}
+.heroimg{
+   margin-top: -180px;
+}
+.poweful{
+   margin-top: 100px;
+   border-right: 1px solid grey;
+   text-align: right;
+   padding-right: 80px;
+   height: 350px;
+}
+.real{
+    margin-top: 100px;
+    padding-left: 50px;
+}
+.learn{
+  border: 1px solid rgba(255, 29, 163, 1);
+  width: 140px;
+    height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 1;
+}
+.untitleimg{
+    margin-left: 320px;
+    margin-top: -70px;
+}
+.gradient{
+    background-image: url(images/bg\ 1.png);
+    background-size: cover;
+}
+.packed{
+    color:whitesmoke;
+    text-align: center;
+    padding-top: 70px;
+    font-family: "";
+    font-weight: 500;   
+}
+.creating{
+    margin-left: 165px;
+    width: 150px;
+    background-image: linear-gradient(60deg,blue 20%,rgba(255, 29, 163, 1));
+}
+.holographic{
+    margin-top: 30px;
+    padding-left: 130px;
+}
+.needhelp{
+    padding-top: 80px;
+    padding-left: 150px;
+}
+.needhelp p{
+    color: gray;
+    font-size: 18px;
+}
+.touch{
+    display: flex;
+}
+.touch p{
+    color:rgba(255, 29, 163, 1);
+}
+.noteready{
+   padding-left: 50px; 
+}
+.noteready h3{
+    color: rgba(255, 29, 163, 1);
+    padding-top: 70px;
+}
+.email{   
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 20px; 
+    display: flex;
+}
+.enter{
+    border: white;
+    margin-left: 20px;
+    line-height: 2.5;
+}
+.need{
+    border-bottom:1px solid gray ;
+}
+.stay{
+    background-color: rgba(255, 29, 163, 1);
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+    margin-top: 5px;
+    line-height: 1;
+}
+footer{
+    background-color: rgba(25, 33, 56, 1);
+    width: 100%;
+}
+.list{
+    color: white;
+    padding-top: 80px;
+}
+.fb{
+    display: flex;
+    color: rgba(255, 29, 163, 1);
+    padding-top: 80px;
+}
+.insta{
+    color: white;
+}
+.link{
+    display: flex;
+    color: white;
+}
+.you{
+    color: white;
+}
+.copyright{
+    color: gray;
+    padding-top: 150px;
+}
+.gradient{
+    background-image: linear-gradient(120deg,rgb(224, 209, 209),rgb(63, 35, 202),rgb(140, 140, 205));
+    color: white;
+    line-height: 2;  
+}
+.youtubevideo{
+    padding-top: 50px;
+}
+.youtubevideo p{
+    color: gray;
+}
+.subscribe{
+    color: white;
+    background-color:rgba(255, 29, 163, 1) ;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 12px;
+}
+.gradient .Explore{
+    padding-top: 20px;
+}
+.talktous{
+   width: 140px;
+   background-color:rgba(255, 29, 163, 1) ;
+   border-radius: 20px;
+}
+.talktous{
+    color: white;
+}
+.active{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 100%;
+    height: 300px;
+    background-size:100% 100%;
+}
+.videoyoutube{
+    width:100%;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 4px 5px 5px 5px gray;
+}
+body{
+    background-color:azure;
+}
+.videoyoutube1{
+    width: 40%;
+    height: 60vh;
+    border-radius: 30px;
+    left: 200px;
+    position: absolute;   
+}
+.storytelling{
+    position: relative;
+    height: 500px;
+}
+.cubeimg{
+    margin-left: 400px;
+}
+.vrcommunity{
+    text-align: center;
+}
+.joincommunity{
+    color: white;
+    padding-left: 100px;
+}
+.tellthestory{
+    height: 600px;
+    background-color: rgba(36, 28, 106, 1);
+}
+.tell{
+    color: white;
+    border-right: 1px solid gray;
+}
+.provid{
+    color: rgb(229, 212, 212);
+}
+.use{
+    color: white;
+}
+.fullholo{
+    position: relative;
+}
+.tellthestory{
+  position: absolute;
+  top: 500px;
+}
+.positionsection{
+    position: relative;
+}
+.not{
+    border-left: 1px solid gray;
+}
